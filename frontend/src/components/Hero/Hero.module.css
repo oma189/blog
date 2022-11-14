@@ -1,0 +1,23 @@
+.hero_container img{
+    width: 100%;
+}
+
+.hero_container{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+}
+.contasy{
+    text-align: center;
+    background-color: azure;
+    padding: 8px 13px;
+}
+
+@media screen  and (max-width: 600px) {
+    
+.hero_container{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+   
+}
+}

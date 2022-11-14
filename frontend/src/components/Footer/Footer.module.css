@@ -1,0 +1,32 @@
+
+.container{
+    text-align: center;
+    padding: 100px;
+    background-color: #E8C8C7;
+}
+form{
+    margin-top: 60px;
+}
+input{
+    width: 200%;
+   height: 30px;
+  
+}
+button{
+    background-color: bisque;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen  and (max-width: 600px){
+    .details{
+        display: block;
+      
+    }
+    h1{
+        font-size: 18px;
+    }
+}

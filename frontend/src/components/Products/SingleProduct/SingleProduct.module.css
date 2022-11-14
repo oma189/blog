@@ -1,0 +1,14 @@
+.box{
+    background: #E8C8C7;
+    display: grid;
+    grid-template-columns: 40% 58%;
+    gap: 2%;
+    box-shadow: 0 0 10px grey;
+    margin-bottom: 4%;
+    align-items: center;
+} 
+.boc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
